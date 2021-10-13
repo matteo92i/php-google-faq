@@ -1,0 +1,13 @@
+ol{
+    list-style:none;
+}
+.domanda{
+    margin: 15px 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.risposta{
+    margin: 15px 15px;
+}
