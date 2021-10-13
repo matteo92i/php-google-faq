@@ -46,12 +46,10 @@ $domandeRisposte = [
     <?php foreach($domandeRisposte as $domandaRisposta) { ?>
         <li> 
           <?php echo $domandaRisposta ['domandaGoogle']; ?> 
+          
+          <?php  echo $domandaRisposta ['rispostaGoogle']; ?> 
         </li>
-        <br>
-        <li>
-          <?php echo $domandaRisposta ['rispostaGoogle']; ?> 
-        </li>
-        <br>
+
     <?php } ?>  
     
 
